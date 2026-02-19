@@ -1,35 +1,23 @@
-# 0.4-variables-investigation
-## Startup
-
-1. Open VS Code and go to File > Open Folder
-2. Go to Unit 0 -> 0.2_investigate folder in VS Code
-3. Create a new file called vars_investigate.py
-4. Copy / paste the below code into that file
-5. Play around with the file
-
-## Instructions
-1. Change the **values** of all of the variable names so that the story reads a bit differently. DO NOT CHANGE ANYTHING IN THE PRINT FUNCTION YET
-2. Add 3 new variables in the Input section and then add those variables to the story in the print function!
-
-
-```python - copy code below
 """
-author:
-date:
+author: Jason James
+date: 02/12/2026
 Investigating Variables
 """
 
 # Input
-name = "Mr. Nguyen"
-grade = 13
-favourite_exclamation = "bruh"
-least_favourite_colour = "yellow"
+name = "Jason"
+grade = 11
+favourite_exclamation = "YEOO"
+least_favourite_colour = "Glitter Yellow"
 is_cool = True
-math_test_score = 90.15
-sister_name = None
+math_test_score = 87
+sister_name = "Joanna"
+grounded = "took away my phone"
+shout = "that she is cooked"
+burst_out = "cry"
 
-slope = 2
-y_intercept = 10
+slope = 7
+y_intercept = 13
 x = 3
 y = slope * x + y_intercept
 
@@ -41,7 +29,8 @@ print(
     + f"Turns out that I only scored a {math_test_score} on the test. One of the qusetions was asking me to write the equation for a line "
     + f"with a slope of {slope} and a y-intercept of {y_intercept} so I wrote y = {slope}x + {y_intercept}, but I did not notice the x value of {x} in the question "
     + f"so I needed to, on the next line, say that the value of y was {y}. "
-    + f"I told my sister {sister_name} about this and she just laughed at me 🙄"
+    + f"I told my sister {sister_name} about this and she just laughed at me 🙄. "
+    + f"Later, she snitched on me about my marks to my parents and they {grounded} for 3 days. "
+    + f"I yelled at my sister {shout} and she started to {burst_out}!"
     + "Anyway, that's the story of my math test."
 )
-```
